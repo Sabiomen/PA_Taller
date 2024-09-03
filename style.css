@@ -51,8 +51,12 @@ section {
 section h2 {
     color: black;
 }
+.principal {
+    background-image:  url(/Prototipo/recursos/background.png);
 
-.texto h2{
+}
+
+.texto p{
     text-align: center;
     font-size: 50px;
 
@@ -80,17 +84,84 @@ section h2 {
     text-align: right;
 }
 
-
-.products {
-    flex-direction: row;
-}
-
-.product p {
-    font-size: 14px;
-    color: #333;
-    text-align: right;
-}
 .price {
     font-size: 18px;
     color: black;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 50px;
+}
+.product{   
+    display: inline-block;
+    padding: 100px;
+    width: 300px;
+    margin: auto;
+
+}
+.product p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+.product img {
+    width: 300px;
+    height:  auto;
+    
+}
+
+
+.product h2 {
+    color: Black;
+    font-size: 30px;
+    margin: 20px 20;
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+
+}
+
+.product .price span{
+    background-color: lightgray;
+    border: 1px solid #ddd;
+
+}
+.product span{
+    background-color: lightgray;
+    border: 1px solid #ddd;
+
+}
+
+.show h2{
+    color: #ccce56;
+    font-size: 30px;
+    margin: 20px 20;
+    text-align: center;
+
+    border: 1px solid #ccce56;
+}
+
+footer{
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+ 
+}
+
+footer h1{
+    margin: 0;
+    flex-grow: 1;
+    text-align: left;
+}
+footer p{
+    text-align: left;
+}
+.footermenu {
+
 }
